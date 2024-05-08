@@ -2,13 +2,14 @@ import React from 'react';
 import './Experiences.css';
 import EYLogo from '../assets/EY.png';
 import PGLogo from '../assets/pg.png';
+import TartineLogo from '../assets/tartine1.png';
 import KeyboardArrowRightRoundedIcon from '@mui/icons-material/KeyboardArrowRightRounded';
 
 const Experiences: React.FC = () => {
   return (
     <div className='experiences'>
       <div>
-        <p className="contact-subtitle">Get To Know More</p>
+        <p className="contact-subtitle">Know More About My</p>
         <div className="contact-title">Experiences</div>
       </div>
       <div className='work-row'>
@@ -29,6 +30,18 @@ const Experiences: React.FC = () => {
           <div className='line1'>PT. Prima Gracindo</div>
           <div className='line2'>Product Designer Intern</div>
           <div className='line3'>Jan 2020 - 2021</div>
+          <div className='work-button'>
+            <div className='learn-more'>
+              Learn More
+              <KeyboardArrowRightRoundedIcon/>
+            </div>
+          </div>
+        </div>
+        <div className='work-container'>
+          <img src={TartineLogo} className='company-logo' alt='Tartine Logo'/>
+          <div className='line1'>tartine.byjanice</div>
+          <div className='line2'>Business Founder / Owner</div>
+          <div className='line3'>Apr 2020 - Present</div>
           <div className='work-button'>
             <div className='learn-more'>
               Learn More

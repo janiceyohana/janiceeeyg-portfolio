@@ -49,3 +49,53 @@
 .about-container:hover {
   transform: scale(1.1);
 }
+
+.about-desc {
+  color: #989898;
+  text-align: left;
+  font-size: 22px;
+}
+
+.about-text {
+  width: 55%;
+}
+
+.about-title {
+  text-align: left;
+  color: #FC7878;
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: default;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.about-subtitle {
+  text-align: left;
+  font-size: 24px;
+  color: black;
+  padding-bottom: 10px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about-img {
+  width: 50%;
+  width: 500px;
+  height: 500px;
+}
+
+.about-btn {
+  display: flex;
+  width: 200px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #96B7D5;
+  border-radius: 30px;
+}
