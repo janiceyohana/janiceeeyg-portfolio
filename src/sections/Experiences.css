@@ -1,0 +1,71 @@
+.experiences {
+  background-color: #ffffff;
+  padding: 80px;
+}
+
+.line1 {
+  font-style: italic;
+  color: #27496A;
+  margin: 0;
+  font-size: 1.25rem;
+}
+.line2 {
+  color: #989898;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.line3 {
+  color: #96B7D5;
+  font-size: 1rem;
+}
+
+.about-container {
+  padding-top: 30px;
+}
+
+.company-logo {
+  height: 200px;
+  padding-bottom: 20px;
+}
+
+.work-row {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: center;
+  align-self: center;
+}
+
+.work-container {
+  padding-top: 30px;
+  transition: transform 0.3s ease;
+  width: 420px;
+}
+
+.learn-more {
+  display: flex;
+  width: 150px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 125px;
+  margin-top: 20px;
+  background-color: #FFEDED;
+  border-radius: 10px;
+}
+
+.work-container:hover .learn-more{
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1);
+  background-color: #FBA7A7;
+}
+
+.work-container:hover .line1,
+.work-container:hover .line2,
+.work-container:hover .line3,
+.work-container:hover .company-logo{
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1);
+}

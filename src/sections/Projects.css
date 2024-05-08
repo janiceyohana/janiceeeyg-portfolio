@@ -1,0 +1,70 @@
+.projects {
+  padding-top: 80px;
+  background-color: #F7F8F9;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  padding-bottom: 80px;
+}
+
+.project-title {
+  color: black;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+  cursor: default;
+}
+
+.card-arrangement {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease;
+  gap: 50px;
+  background-color: #F7F8F9;
+  justify-content: center;
+}
+
+@media screen and (min-width:1300px) {
+  .carousel-container {
+    width: 1200px;
+  }
+}
+
+@media screen and (min-width:900px) and (max-width:1299px) {
+  .carousel-container {
+    width: 800px;
+  }
+}
+
+@media screen and (max-width:899px) {
+  .carousel-container {
+    width: 300px;
+  }
+}
+
+.card {
+  flex: 0 0 auto;
+  margin-right: 20px; /* Adjust spacing between cards */
+  width: 300px; /* Set the width of each card */
+  height: auto;
+}
+
+.controls {
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.controls button {
+  margin: 0 10px;
+}
+

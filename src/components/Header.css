@@ -1,0 +1,72 @@
+.header {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 12vh;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  cursor: default;
+}
+
+.iconJ {
+  display: flex;
+  background-color: #27496A;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #27496A;
+  font-weight: 500;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.25rem;
+  transition: all 0.3s ease;
+}
+
+li {
+  transition: all 0.3s ease;
+}
+
+li:hover {
+  transform: scale(1.15);
+  font-weight: 400;
+}
+
+a {
+  color: #FC7878;
+  text-decoration: none;
+  transition: all 300ms ease;
+}
+
+a:hover {
+  color: #FBA7A7;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+}
+
+nav, .nav-links {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color:rgba(255, 255, 255, 0.5);
+}

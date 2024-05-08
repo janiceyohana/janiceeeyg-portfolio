@@ -1,0 +1,51 @@
+.about {
+  background-color: #F7F8F9;
+  padding: 80px;
+}
+
+.about-col {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+}
+
+.education {
+  width: 50%;
+  font-size: 1.5rem;
+  color: #FC7878;
+  font-weight: 500;
+}
+
+.engagements {
+  width: 50%;
+  font-size: 1.5rem;
+  color: #FC7878;
+  font-weight: 500;
+}
+
+.line1 {
+  font-style: italic;
+  color: #27496A;
+  margin: 0;
+  font-size: 1.25rem;
+}
+.line2 {
+  color: #989898;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.line3 {
+  color: #96B7D5;
+  font-size: 1rem;
+}
+
+.about-container {
+  padding-top: 30px;
+  transition: transform 0.3s ease;
+}
+
+.about-container:hover {
+  transform: scale(1.1);
+}
