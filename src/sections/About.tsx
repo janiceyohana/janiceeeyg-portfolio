@@ -2,33 +2,32 @@ import React from 'react';
 import './About.css';
 import SchoolRoundedIcon from '@mui/icons-material/SchoolRounded';
 import MilitaryTechRoundedIcon from '@mui/icons-material/MilitaryTechRounded';
-import KeyboardArrowDownRoundedIcon from '@mui/icons-material/KeyboardArrowDownRounded';
-import MePic from '../assets/me.png';
 
 const About: React.FC = () => {
   return (
     <div className='about'>
       <div className='about-me'>
         <div className='about-text'>
-          <div className="about-subtitle">Get To Know More About Me</div>
+          <div className="about-subtitle">Get To Know</div>
           <div className="about-title">WHO I AM</div>
+          <div className='about-edu'>Singapore University of Technology and Design
+          </div>
+          <div className='about-edu'>Year 3, Design and AI Pillar (Bachelor of Science, Hons)</div>
           <div className='about-desc'>
-          As a third-year student at Singapore University of Technology and Design,
-          specializing in the Design and AI Pillar,
           I passionately immerse myself in the realms of UI/UX design and web development.
           With a keen eye for detail,
           I strive for pixel-perfect designs and thrive on crafting interactive user experiences that captivate and delight.
           My commitment to excellence extends beyond aesthetics—I take pride in delivering exceptional customer service,
           consistently exceeding the expectations of my partners and clients.
           </div>
-          <div className='work-button'>
+          {/* <div className='work-button'>
             <div className='about-btn'>
               More about me
               <KeyboardArrowDownRoundedIcon/>
             </div>
-          </div>
+          </div> */}
         </div>
-        <img src={MePic} className='about-img'/>
+        {/* <img src='' className='about-img'/> */}
       </div>
       <div className='about-col'>
         <div className='education'>

@@ -17,7 +17,7 @@ const Profile: React.FC = () => {
   return (
     <div className="profile">
       <div className='profile-pic'>
-        <img src={ProfilePic} className='profile-pic' alt='Profile Picture'/>
+        <img src={ProfilePic} className='profile-pic' alt='Profile'/>
       </div>
       <div className="section-text">
         <p className="section-title">Hi! I am</p>
