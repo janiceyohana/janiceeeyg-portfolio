@@ -89,9 +89,22 @@
 }
 
 .about-img {
-  width: 50%;
-  width: 500px;
-  height: 500px;
+  width: 30%;
+  height: 500px; /* Set the height of the container */
+  overflow: hidden; /* Hide anything that overflows the container */
+  position: relative;
+  object-fit: cover; /* Crop the image while maintaining aspect ratio */
+  object-position: center;
+}
+
+.about-img.zoomed {
+  width: 100%; /* Scale the image larger to simulate zoom */
+  height: auto; /* Maintain aspect ratio */
+  object-position: center; /* You can adjust this if you want a different focal point */
+}
+
+.about-icon {
+  color: #FC7878;
 }
 
 .about-btn {
@@ -110,4 +123,71 @@
   text-align: left;
   font-size: 24px;
   font-weight: 500;
+}
+
+.about-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.skills-title {
+  width: 100%;
+  font-size: 1.5rem;
+  color: #FC7878;
+  font-weight: 500;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 50px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.skills-category {
+  font-style: italic;
+  color: #27496A;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.skills-description {
+  font-size: 0.9rem;
+  color: #989898;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tag {
+  background: #96B7D5;
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 15px;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.skill-tag:hover {
+  background: #27496A;
 }
