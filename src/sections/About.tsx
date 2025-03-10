@@ -3,7 +3,7 @@ import "./About.css";
 import SchoolRoundedIcon from "@mui/icons-material/SchoolRounded";
 import MilitaryTechRoundedIcon from "@mui/icons-material/MilitaryTechRounded";
 import EmojiObjectsIcon from "@mui/icons-material/EmojiObjects";
-import ProfilePic from "../assets/profile-pic2.jpg";
+import ProfilePic2 from "../assets/profile-pic2.jpg";
 
 const About: React.FC = () => {
   const skillsData = [
@@ -86,7 +86,7 @@ const About: React.FC = () => {
             </div>
           </div> */}
         </div>
-        <img src={ProfilePic} className="about-img" />
+        <img src={ProfilePic2} className="about-img" />
       </div>
       <div className="about-col">
         <div className="education">
@@ -129,7 +129,7 @@ const About: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="about-skills">
+      {/* <div className="about-skills">
         <div className="skills">
           <div className="about-icon">
             <EmojiObjectsIcon />
@@ -151,7 +151,7 @@ const About: React.FC = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
