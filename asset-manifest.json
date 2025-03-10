@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb3e6f59.css",
-    "main.js": "/static/js/main.e5c52638.js",
-    "static/js/453.68693753.chunk.js": "/static/js/453.68693753.chunk.js",
-    "static/media/tartine1.png": "/static/media/tartine1.2bce9f97dca6026f89a1.png",
-    "static/media/profile-pic.jpg": "/static/media/profile-pic.fdf5a6ea2035827b1156.jpg",
-    "static/media/profile-pic2.jpg": "/static/media/profile-pic2.f974a4b5be5329a12398.jpg",
-    "static/media/EY.png": "/static/media/EY.40b50f673f0e31ef903e.png",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/index.html",
-    "main.fb3e6f59.css.map": "/static/css/main.fb3e6f59.css.map",
-    "main.e5c52638.js.map": "/static/js/main.e5c52638.js.map",
-    "453.68693753.chunk.js.map": "/static/js/453.68693753.chunk.js.map"
+    "main.css": "/janiceeeyg-portfolio/static/css/main.4de81d04.css",
+    "main.js": "/janiceeeyg-portfolio/static/js/main.a1702b91.js",
+    "static/js/453.68693753.chunk.js": "/janiceeeyg-portfolio/static/js/453.68693753.chunk.js",
+    "static/media/tartine1.png": "/janiceeeyg-portfolio/static/media/tartine1.2bce9f97dca6026f89a1.png",
+    "static/media/profile-pic.jpg": "/janiceeeyg-portfolio/static/media/profile-pic.fdf5a6ea2035827b1156.jpg",
+    "static/media/profile-pic2.jpg": "/janiceeeyg-portfolio/static/media/profile-pic2.f974a4b5be5329a12398.jpg",
+    "static/media/EY.png": "/janiceeeyg-portfolio/static/media/EY.40b50f673f0e31ef903e.png",
+    "static/media/slick.svg": "/janiceeeyg-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/janiceeeyg-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/janiceeeyg-portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/janiceeeyg-portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/janiceeeyg-portfolio/index.html",
+    "main.4de81d04.css.map": "/janiceeeyg-portfolio/static/css/main.4de81d04.css.map",
+    "main.a1702b91.js.map": "/janiceeeyg-portfolio/static/js/main.a1702b91.js.map",
+    "453.68693753.chunk.js.map": "/janiceeeyg-portfolio/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb3e6f59.css",
-    "static/js/main.e5c52638.js"
+    "static/css/main.4de81d04.css",
+    "static/js/main.a1702b91.js"
   ]
 }
