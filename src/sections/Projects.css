@@ -1,70 +1,127 @@
+/* ===========================
+   General Styles
+   =========================== */
 .projects {
-  padding-top: 80px;
+  padding: 80px 20px;
   background-color: #F7F8F9;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
   max-width: 100%;
-  padding-bottom: 80px;
 }
 
 .project-title {
   color: black;
   font-size: 2rem;
   font-weight: 600;
-  margin: 0;
-  cursor: default;
-}
-
-.card-arrangement {
-  display: flex;
-  flex-direction: row;
-  gap: 50px;
-  justify-content: center;
-  align-items: center;
-  max-width: 80%;
+  margin-bottom: 20px;
 }
 
 .carousel-container {
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+}
+
+/* ===========================
+   Slick Carousel Overrides
+   =========================== */
+.slick-slider {
+  width: 100%;
+}
+
+.slick-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Hide default Slick arrows */
+.slick-prev:before,
+.slick-next:before {
+  display: none !important;
+}
+
+/* ===========================
+   Custom Navigation Arrows
+   =========================== */
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+  background-color: #FFEDED;
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
   display: flex;
-  transition: transform 0.5s ease;
-  gap: 50px;
-  background-color: #F7F8F9;
+  align-items: center;
   justify-content: center;
 }
 
-@media screen and (min-width:1300px) {
-  .carousel-container {
-    width: 1200px;
-  }
+/* Positioning */
+.custom-prev {
+  left: -50px;
 }
 
-@media screen and (min-width:900px) and (max-width:1299px) {
-  .carousel-container {
-    width: 800px;
-  }
+.custom-next {
+  right: -50px;
 }
 
-@media screen and (max-width:899px) {
-  .carousel-container {
-    width: 300px;
-  }
+/* Icon Styling */
+.custom-arrow svg {
+  font-size: 24px;
+  color: #FC7878;
 }
 
+.custom-arrow:hover svg {
+  color: #D95E5E;
+}
+
+/* ===========================
+   Card Styles
+   =========================== */
 .card {
-  flex: 0 0 auto;
-  margin-right: 20px; /* Adjust spacing between cards */
-  width: 300px; /* Set the width of each card */
-  height: auto;
+  width: 300px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
 }
 
-.controls {
-  padding-top: 20px;
-  margin-top: 20px;
+.card:hover {
+  transform: scale(1.05);
 }
 
-.controls button {
-  margin: 0 10px;
+.card-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
 }
 
+.card-content {
+  padding: 15px;
+  text-align: left;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: 16px;
+  color: #666;
+}
+
+.card-link {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.card-link:hover {
+  color: #0056b3;
+}

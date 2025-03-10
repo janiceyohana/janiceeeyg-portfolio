@@ -1,0 +1,45 @@
+.card {
+  width: 350px;
+  height: 420px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  position: relative;
+}
+
+.card-image {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 12px 20px;
+  flex-grow: 1;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #333;
+}
+
+.card-subtitle {
+  font-size: 1rem;
+  color: #777;
+  margin-top: 2px;
+}
+
+.card-link {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 1rem;
+  color: #96B7D5;
+  font-weight: medium;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
