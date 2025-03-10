@@ -4,6 +4,9 @@
   justify-content: space-around;
   align-items: center;
   height: 12vh;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .name {
@@ -22,12 +25,9 @@
   color: #FFF;
   font-family: "Poppins", sans-serif;
   font-size: 25px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   align-items: center;
   justify-content: center;
-  cursor: default;
 }
 
 .logo {
@@ -64,9 +64,17 @@ a:hover {
   text-underline-offset: 1rem;
 }
 
-nav, .nav-links {
+a.active {
+  color: #FBA7A7;
+  font-weight: medium;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+}
+
+nav,
+.nav-links {
   display: flex;
   position: sticky;
   top: 0;
-  background-color:rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
