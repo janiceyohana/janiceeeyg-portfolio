@@ -19,7 +19,9 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.23.0",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.30.3",
     "react-social-icons": "^6.16.0",
+    "slick-carousel": "^1.8.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -49,5 +51,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://janiceyohana.github.io/"
+  "homepage": "https://janiceyohana.github.io/",
+  "devDependencies": {
+    "@types/react-slick": "^0.23.13"
+  }
 }
