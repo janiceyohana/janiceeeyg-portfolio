@@ -10,24 +10,39 @@ const Header: React.FC = () => {
     const section = document.getElementById(id);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
-      console.log(activeSection);
     }
   };
 
   useEffect(() => {
     const sections = document.querySelectorAll("section");
-    const options = {
+    const observerOptions = {
       rootMargin: "0px",
-      threshold: 0.3,
+      threshold: 0.6, // Default threshold value (we can tweak this for individual sections)
     };
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
+        const sectionHeight = entry.target.clientHeight;
+        let dynamicThreshold = 0.6; // Default threshold
+
+        // Dynamically adjust threshold based on the section's height
+        if (sectionHeight < 700) {
+          dynamicThreshold = 0.7; // Smaller sections, trigger earlier
+        } else if (sectionHeight > 900) {
+          dynamicThreshold = 0.3; // Larger sections, need more visibility
+        }
+
+        // Adjusting intersection observer options
+        const adjustedOptions = {
+          ...observerOptions,
+          threshold: dynamicThreshold,
+        };
+
         if (entry.isIntersecting) {
           setActiveSection(entry.target.id);
         }
       });
-    }, options);
+    }, observerOptions);
 
     sections.forEach((section) => observer.observe(section));
 

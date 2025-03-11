@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Projects.css";
 import Slider from "react-slick";
 import Card from "../components/Card";
+import CardBig from "../components/CardBig";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import projectsData from "../assets/projectsdata.json";
-
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
@@ -29,20 +29,14 @@ const CustomNextArrow = (props: any) => {
 };
 
 const Projects: React.FC = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 900,
-        settings: { slidesToShow: 1 },
-      },
-    ],
-    prevArrow: <CustomPrevArrow />,
-    nextArrow: <CustomNextArrow />,
+  const [selectedProject, setSelectedProject] = useState<number | null>(null);
+
+  const handleProjectSelect = (index: number) => {
+    setSelectedProject(index);
+  };
+
+  const handleClose = () => {
+    setSelectedProject(null);
   };
 
   return (
@@ -51,13 +45,34 @@ const Projects: React.FC = () => {
       <div className="project-title">Projects</div>
 
       <div className="carousel-container">
-        <Slider {...settings}>
-          {projectsData.map((project, index) => (
-            <div key={index} className="slide">
-              <Card {...project} />
-            </div>
-          ))}
-        </Slider>
+        {selectedProject === null ? (
+          <Slider
+            dots={true}
+            infinite={true}
+            speed={500}
+            slidesToShow={3}
+            slidesToScroll={1}
+            adaptiveHeight={true}
+            draggable={true}
+            swipe={true}
+            prevArrow={<CustomPrevArrow />}
+            nextArrow={<CustomNextArrow />}
+            responsive={[{ breakpoint: 900, settings: { slidesToShow: 1 } }]}
+          >
+            {projectsData.map((project, index) => (
+              <div key={index} className="slide">
+                <Card
+                  {...project}
+                  onSelect={() => handleProjectSelect(index)}
+                />
+              </div>
+            ))}
+          </Slider>
+        ) : (
+          <div className="cardbigcont">
+            <CardBig {...projectsData[selectedProject]} onClose={handleClose} />
+          </div>
+        )}
       </div>
     </div>
   );

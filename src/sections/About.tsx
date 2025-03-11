@@ -3,7 +3,7 @@ import "./About.css";
 import SchoolRoundedIcon from "@mui/icons-material/SchoolRounded";
 import MilitaryTechRoundedIcon from "@mui/icons-material/MilitaryTechRounded";
 import EmojiObjectsIcon from "@mui/icons-material/EmojiObjects";
-import ProfilePic2 from "../assets/profile-pic2.jpg";
+import ProfilePic2 from "../assets/profile-pic2.png";
 
 const About: React.FC = () => {
   const skillsData = [

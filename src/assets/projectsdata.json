@@ -1,49 +1,64 @@
 [
   {
+    "id": 0,
     "image": "/assets/dnata.png",
     "title": "News Aggregator",
     "subtitle": "Service Design Studio",
     "description": "My team and I collaborated with DNATA in a team-oriented project, focusing on collecting valuable news and facilitating automated news collecting and team sharing platform. My primary contributions involved designing the user interface and enhancing the user experience through front-end development, utilizing JavaScript and Figma. Working closely with DNATA, I played a key role in creating an efficient and visually appealing platform for news collection and team connectivity.",
-    "links": {
-      "link-title": "Project Website",
-      "link-html": "https://sites.google.com/mymail.sutd.edu.sg/sud-avengers/home"
-    }
+    "links": [
+      {
+        "linktitle": "Project Website",
+        "linkhtml": "https://sites.google.com/mymail.sutd.edu.sg/sud-avengers/home"
+      }
+    ]
   },
   {
+    "id": 1,
     "image": "/assets/faqs.png",
     "title": "FAQs",
     "subtitle": "Human Computer Interface & AI",
     "description": "A team of four people, including myself, joined forces to develop an app aimed at bringing organization to the school canteen for our Human Computer Interface course. The project involves utilizing a combination of human-computer interface and AI to address daily challenges.",
-    "links": {
-      "mobile-prototype": "https://pyraxo.github.io/faqs-app/stalls",
-      "poster": "https://www.figma.com/design/eCWhhEdxHwDtm43SeusawU/Untitled?node-id=0-194"
-    }
+    "links": [
+      {
+        "linktitle": "Mobile Prototype",
+        "linkhtml": "https://pyraxo.github.io/faqs-app/stalls"
+      },
+      {
+        "linktitle": "Poster",
+        "linkhtml": "https://www.figma.com/design/eCWhhEdxHwDtm43SeusawU/Untitled?node-id=0-194"
+      }
+    ]
   },
   {
+    "id": 2,
     "image": "/assets/tilted.png",
     "title": "Tilted.",
     "subtitle": "Product Design Studio",
     "description": "Collaborated with Nugen.AI to create a device to detect gaming tilt in professional E-Sports play. My role in the design team focused on product design, ideation, and creating prototypes, involving hands-on tasks like sewing and assembling for the actual product. Additionally, I collaborated closely with the client and the team, with a specific focus on the UI/UX aspect of the project. I was responsible for developing a website to display product data, ensuring an effective and user-friendly interface."
   },
   {
+    "id": 3,
     "image": "/assets/cpf.png",
     "title": "CPF Dashboard",
     "subtitle": "Systems Design Studio",
     "description": "As part of a team of five, I worked on a project for CPF to enhance their dashboard for better forecasting of manpower allocation. Our goal was to enable CPF to simulate possible scenarios for their manpower allocation. We successfully integrated the application using Python and Streamlit, and our solution is now complete and ready for implementation."
   },
   {
+    "id": 4,
     "image": "/assets/skincancer.png",
     "title": "Skin Cancer Detector",
     "subtitle": "Computational Data Science & Applied Deep Learning",
     "description": "As a member of the Skin Cancer Detection team, focusing on Computational Data Science and Applied Deep Learning, we aim to automate the detection of skin cancer. Early detection significantly increases the survival rate, with potential rates as high as 99%. To achieve this, we utilize Convolutional Neural Networks (CNNs) and computer vision techniques to enhance detection accuracy. By leveraging tools such as Keras and PyTorch, our goal is to build a reliable and precise system for identifying skin cancer at its earliest stages."
   },
   {
+    "id": 5,
     "image": "/assets/sam.png",
     "title": "Spatial Planning Tool",
     "subtitle": "Spatial Design Studio",
     "description": "In collaboration with Singapore Arts Museum (SAM), my team and I are tasked to help SAM automate their spatial planning process into a tool for their exhibitions, whilst considering all the must follow guidelines and conservation details."
   },
   {
+    "id": 6,
     "image": "/assets/sanitease.png",
     "title": "Sanitease",
     "subtitle": "Healthcare Product Design",

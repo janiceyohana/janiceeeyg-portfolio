@@ -1,57 +1,28 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Card.css";
-import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
-import Modal from "./ProjectDetailModal";
+import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
+import OpenInFullIcon from "@mui/icons-material/OpenInFull";
 
-interface CardProps {
+interface CardProps
+{
+  id: number;
   image: string;
   title: string;
   subtitle: string;
-  description: string;
-  link: string;
+  onSelect: () => void;
 }
 
-const Card: React.FC<CardProps> = ({
-  image,
-  title,
-  subtitle,
-  description,
-  link,
-}) => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const openModal = () => {
-    setIsModalOpen(true);
-  };
-
-  const closeModal = () => {
-    setIsModalOpen(false);
-  };
-
-
+const Card: React.FC<CardProps> = ({ image, title, subtitle, onSelect }) => {
   return (
-    <div>
-      <div className="card">
-        <img src={image} alt={title} className="card-image" />
-        <div className="card-content">
-          <h2 className="card-title">{title}</h2>
-          <p className="card-subtitle">{subtitle}</p>
-          <a className="card-link" onClick={openModal}>
-            See More
-            <KeyboardArrowRightIcon />
-          </a>
-        </div>
+    <div className="card" onClick={onSelect}>
+      <img src={image} alt={title} className="card-image" />
+      <div className="card-content">
+        <h2 className="card-title">{title}</h2>
+        <p className="card-subtitle">{subtitle}</p>
+        <a className="card-link">
+          View Project <ArrowOutwardIcon />
+        </a>
       </div>
-
-      {/* Modal */}
-      <Modal
-        isOpen={isModalOpen}
-        onClose={closeModal}
-        title={title}
-        subtitle={subtitle}
-        description={description}
-        link={link}
-      />
     </div>
   );
 };

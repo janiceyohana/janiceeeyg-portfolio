@@ -24,6 +24,8 @@
 
 .slide {
   margin: 20px 0;
+  height: fit-content;
+  margin-bottom: 40px;
 }
 
 /* ===========================
@@ -126,5 +128,30 @@
 }
 
 .card-link:hover {
-  color: #0056b3;
+  font-weight: bolder;
+  color: #27496A;
+}
+
+.projects {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  transition: all 0.5s ease-in-out;
+}
+
+.card-container.single-card {
+  justify-content: center;
+}
+
+.cardbigcont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  height: fit-content;
 }

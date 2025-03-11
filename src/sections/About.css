@@ -90,7 +90,6 @@
 
 .about-img {
   width: 30%;
-  height: 500px; /* Set the height of the container */
   overflow: hidden; /* Hide anything that overflows the container */
   position: relative;
   object-fit: cover; /* Crop the image while maintaining aspect ratio */
