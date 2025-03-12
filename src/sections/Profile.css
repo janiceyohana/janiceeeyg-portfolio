@@ -71,12 +71,9 @@ h1 {
 }
 
 .btn-1:hover {
-  border-radius: 25px;
-  padding: 10px 15px;
-  width: fit-content;
   font-size: 1rem;
   font-family: inherit;
-  background-color: #FBA7A7;
+  color: #FC7878;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
   transform: scale(1.1);
