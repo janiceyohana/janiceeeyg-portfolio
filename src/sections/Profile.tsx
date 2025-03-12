@@ -32,15 +32,7 @@ const Profile: React.FC = () => {
         </div>
         <div className="btn-container">
           <button className="btn-1" onClick={toggleOpenCV}>
-            Download CV
-          </button>
-          <button
-            className="btn-1"
-            onClick={() => {
-              window.location.href = "../#contact";
-            }}
-          >
-            Contact Info
+            Download Resume
           </button>
         </div>
       </div>
