@@ -15,7 +15,11 @@ interface CardProps
 const Card: React.FC<CardProps> = ({ image, title, subtitle, onSelect }) => {
   return (
     <div className="card" onClick={onSelect}>
-      <img src={image} alt={title} className="card-image" />
+      <img
+        src={process.env.PUBLIC_URL + image}
+        alt={title}
+        className="card-image"
+      />
       <div className="card-content">
         <h2 className="card-title">{title}</h2>
         <p className="card-subtitle">{subtitle}</p>

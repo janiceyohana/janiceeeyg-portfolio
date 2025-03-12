@@ -43,7 +43,6 @@ const Projects: React.FC = () => {
     <div className="projects">
       <p className="contact-subtitle">Browse My</p>
       <div className="project-title">Projects</div>
-
       <div className="carousel-container">
         {selectedProject === null ? (
           <Slider

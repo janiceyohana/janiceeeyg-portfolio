@@ -16,8 +16,8 @@ const Profile: React.FC = () => {
 
   return (
     <div className="profile">
-      <div className='profile-pic'>
-        <img src={ProfilePic} className='profile-pic' alt='Profile'/>
+      <div className="profile-pic">
+        <img src={ProfilePic} className="profile-pic" alt="Profile" />
       </div>
       <div className="section-text">
         <p className="section-title">Hi! I am</p>
@@ -25,10 +25,23 @@ const Profile: React.FC = () => {
         {/* <p className="section-desc">Singapore University of Technology and Design</p>
         <p className="section-desc">Year 3, Design and Artificial Intelligence</p> */}
         <div className="section-role">Frontend Developer, UI/UX Designer</div>
-        <div className="section-desc">On a mission to blend creativity with AI, crafting unforgettable digital interfaces and user experiences, making technology seamless and intuitive for all</div>
+        <div className="section-desc">
+          On a mission to blend creativity with AI, crafting unforgettable
+          digital interfaces and user experiences, making technology seamless
+          and intuitive for all
+        </div>
         <div className="btn-container">
-          <button className="btn-1" onClick={toggleOpenCV}>Download CV</button>
-          <button className="btn-1" onClick={() => {window.location.href='../#contact'}}>Contact Info</button>
+          <button className="btn-1" onClick={toggleOpenCV}>
+            Download CV
+          </button>
+          <button
+            className="btn-1"
+            onClick={() => {
+              window.location.href = "../#contact";
+            }}
+          >
+            Contact Info
+          </button>
         </div>
       </div>
     </div>

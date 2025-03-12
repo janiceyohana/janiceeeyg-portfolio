@@ -34,14 +34,34 @@
     "image": "/assets/tilted.png",
     "title": "Tilted.",
     "subtitle": "Product Design Studio",
-    "description": "Collaborated with Nugen.AI to create a device to detect gaming tilt in professional E-Sports play. My role in the design team focused on product design, ideation, and creating prototypes, involving hands-on tasks like sewing and assembling for the actual product. Additionally, I collaborated closely with the client and the team, with a specific focus on the UI/UX aspect of the project. I was responsible for developing a website to display product data, ensuring an effective and user-friendly interface."
+    "description": "Collaborated with Nugen.AI to create a device to detect gaming tilt in professional E-Sports play. My role in the design team focused on product design, ideation, and creating prototypes, involving hands-on tasks like sewing and assembling for the actual product. Additionally, I collaborated closely with the client and the team, with a specific focus on the UI/UX aspect of the project. I was responsible for developing a website to display product data, ensuring an effective and user-friendly interface.",
+    "links": [
+      {
+        "linktitle": "Rendered Prototype Video",
+        "linkhtml": "https://sutdapac-my.sharepoint.com/:v:/g/personal/janice_yohana_mymail_sutd_edu_sg/EfLT-egTAMRClMvXQiIVne0B41MOPbVUc1NozYv9thPU8g?e=XEJham"
+      },
+      {
+        "linktitle": "Product Video",
+        "linkhtml": "https://sutdapac-my.sharepoint.com/:v:/g/personal/janice_yohana_mymail_sutd_edu_sg/EZA8oxhFv2dCkZmW9Iow1acB4VOd3934dijYINBriqp3kg?e=GfQeyj"
+      }
+    ]
   },
   {
     "id": 3,
     "image": "/assets/cpf.png",
     "title": "CPF Dashboard",
     "subtitle": "Systems Design Studio",
-    "description": "As part of a team of five, I worked on a project for CPF to enhance their dashboard for better forecasting of manpower allocation. Our goal was to enable CPF to simulate possible scenarios for their manpower allocation. We successfully integrated the application using Python and Streamlit, and our solution is now complete and ready for implementation."
+    "description": "As part of a team of five, I worked on a project for CPF to enhance their dashboard for better forecasting of manpower allocation. Our goal was to enable CPF to simulate possible scenarios for their manpower allocation. We successfully integrated the application using Python and Streamlit, and our solution is now complete and ready for implementation.",
+    "links": [
+      {
+        "linktitle": "Project Video",
+        "linkhtml": "https://www.youtube.com/watch?v=Q6gUqN6ieww"
+      },
+      {
+        "linktitle": "Prototype Website",
+        "linkhtml": "https://sds-cpf-dashboard.streamlit.app/"
+      }
+    ]
   },
   {
     "id": 4,
@@ -55,13 +75,29 @@
     "image": "/assets/sam.png",
     "title": "Spatial Planning Tool",
     "subtitle": "Spatial Design Studio",
-    "description": "In collaboration with Singapore Arts Museum (SAM), my team and I are tasked to help SAM automate their spatial planning process into a tool for their exhibitions, whilst considering all the must follow guidelines and conservation details."
+    "description": "In collaboration with Singapore Arts Museum (SAM), my team and I are tasked to help SAM automate their spatial planning process into a tool for their exhibitions, whilst considering all the must follow guidelines and conservation details.",
+    "links": [
+      {
+        "linktitle": "Project Video",
+        "linkhtml": "https://sutdapac-my.sharepoint.com/:v:/g/personal/janice_yohana_mymail_sutd_edu_sg/ERXfU6hRw9hMsQWuh_eBWR0B5HyY5YuJ5dwMpjbC48oT2w?e=LFN7aq"
+      }
+    ]
   },
   {
     "id": 6,
     "image": "/assets/sanitease.png",
     "title": "Sanitease",
     "subtitle": "Healthcare Product Design",
-    "description": "Hand hygiene compliance rate in Singapore hospitals often low, including Seng Kang General Hospital. They have difficulty in implementing an automated, intuitive, and effective hand hygiene system. Our project aims to help them increase the hand hygiene compliance rate around the hospital."
+    "description": "Hand hygiene compliance rate in Singapore hospitals often low, including Seng Kang General Hospital. They have difficulty in implementing an automated, intuitive, and effective hand hygiene system. Our project aims to help them increase the hand hygiene compliance rate around the hospital.",
+    "links": [
+      {
+        "linktitle": "Poster",
+        "linkhtml": "https://www.canva.com/design/DAGVyHIh_4w/mJZnhg9OFEkQ3XG05DwrHg/edit"
+      },
+      {
+        "linktitle": "Product Video",
+        "linkhtml": "https://sutdapac-my.sharepoint.com/:v:/g/personal/janice_yohana_mymail_sutd_edu_sg/EVWK4Ii77KxJoK6ge922FucBLLXxA4VCROGvJHE1uGPZKw?e=loLydJ"
+      }
+    ]
   }
 ]

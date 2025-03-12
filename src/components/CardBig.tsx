@@ -28,12 +28,16 @@ const CardBig: React.FC<CardBigProps> = ({
 }) => {
   return (
     <div>
-      <img src={image} alt={title} className="image-box" />
+      <img
+        src={process.env.PUBLIC_URL + image}
+        alt={title}
+        className="image-box"
+      />
+
       <div className="card-big">
         <button className="close-btn" onClick={onClose}>
           <CloseFullscreenIcon />
         </button>
-        {/* <img src={image} alt={title} className="image-box" /> */}
         <div className="cardbig-content">
           <h2 className="cardbig-title">{title}</h2>
           <p className="cardbig-subtitle">{subtitle}</p>
