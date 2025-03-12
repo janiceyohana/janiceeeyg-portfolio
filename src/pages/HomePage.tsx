@@ -5,6 +5,7 @@ import About from "../sections/About";
 import Projects from "../sections/Projects";
 import Experiences from "../sections/Experiences";
 import Contact from "../sections/Contact";
+import Skills from "../sections/Skills";
 
 const HomePage: React.FC = () => {
   // Refs for scrolling
@@ -17,6 +18,9 @@ const HomePage: React.FC = () => {
       </section>
       <section id="about-me">
         <About />
+      </section>
+      <section id="skills">
+        <Skills />
       </section>
       <section id="experiences">
         <Experiences />

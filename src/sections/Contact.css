@@ -7,6 +7,11 @@
   margin: auto;
   padding: 80px;
 }
+
+.contacts {
+  background-color: #FFFFFF;
+}
+
 .socials-container {
   margin-top: 10px;
   display: flex;
