@@ -60,6 +60,10 @@
       {
         "linktitle": "Prototype Website",
         "linkhtml": "https://sds-cpf-dashboard.streamlit.app/"
+      },
+      {
+        "linktitle": "Website Figma Design",
+        "linkhtml": "https://www.figma.com/design/c8FG9FDMyJUoo2w1WoYIzM/CPF-Dashboard-HI-FI-Prototype"
       }
     ]
   },

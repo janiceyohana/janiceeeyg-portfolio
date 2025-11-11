@@ -66,17 +66,17 @@ const About: React.FC = () => {
           <div className="about-subtitle">Get To Know</div>
           <div className="about-title">WHO I AM</div>
           <div className="about-edu">
-            Singapore University of Technology and Design
+            Fresh Graduate, Aspiring Frontend Developer and UI/UX Designer
           </div>
           <div className="about-edu">
-            Year 4, Design and AI Pillar (Bachelor of Science, Hons)
+            Bachelor of Science in Design and Artificial Intelligence (SUTD)
           </div>
           <div className="about-desc">
             I passionately immerse myself in the realms of UI/UX design and web
             development. With a keen eye for detail, I strive for pixel-perfect
             designs and thrive on crafting interactive user experiences that
             captivate and delight. My commitment to excellence extends beyond
-            aesthetics—I take pride in delivering exceptional customer service,
+            aesthetics. I take pride in delivering exceptional customer service,
             consistently exceeding the expectations of my partners and clients.
           </div>
           {/* <div className='work-button'>
@@ -98,7 +98,7 @@ const About: React.FC = () => {
             <div className="line1">
               Singapore University of Technology and Design
             </div>
-            <div className="line2">Bachelor of Science, Design & AI Pillar</div>
+            <div className="line2">Bachelor of Science, Design & AI </div>
             <div className="line3">2021-2025</div>
           </div>
           <div className="about-container">

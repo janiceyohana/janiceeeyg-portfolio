@@ -7,17 +7,17 @@ import KeyboardArrowRightRoundedIcon from '@mui/icons-material/KeyboardArrowRigh
 
 const Experiences: React.FC = () => {
   return (
-    <div className='experiences'>
+    <div className="experiences">
       <div>
         <p className="contact-subtitle">Know More About My</p>
         <div className="contact-title">Experiences</div>
       </div>
-      <div className='work-row'>
-        <div className='work-container'>
-          <img src={EYLogo} className='company-logo' alt='EY Logo'/>
-          <div className='line1'>EY Digital and Emerging Tech Singapore</div>
-          <div className='line2'>Tech Intern, Front-end Development</div>
-          <div className='line3'>Aug - Dec 2023</div>
+      <div className="work-row">
+        <div className="work-container">
+          <img src={PGLogo} className="company-logo" alt="PG Logo" />
+          <div className="line1">PT. Prima Gracindo</div>
+          <div className="line2">Frontend Developer</div>
+          <div className="line3">May - Sept 2024</div>
           {/* <div className='work-button'>
             <div className='learn-more'>
               Learn More
@@ -25,11 +25,11 @@ const Experiences: React.FC = () => {
             </div>
           </div> */}
         </div>
-        <div className='work-container'>
-          <img src={PGLogo} className='company-logo' alt='PG Logo'/>
-          <div className='line1'>PT. Prima Gracindo</div>
-          <div className='line2'>Product Designer Intern</div>
-          <div className='line3'>Jan 2020 - 2021</div>
+        <div className="work-container">
+          <img src={EYLogo} className="company-logo" alt="EY Logo" />
+          <div className="line1">EY Digital and Emerging Tech Singapore</div>
+          <div className="line2">Tech Intern, Front-end Development</div>
+          <div className="line3">Aug - Dec 2023</div>
           {/* <div className='work-button'>
             <div className='learn-more'>
               Learn More
@@ -37,11 +37,23 @@ const Experiences: React.FC = () => {
             </div>
           </div> */}
         </div>
-        <div className='work-container'>
-          <img src={TartineLogo} className='company-logo' alt='Tartine Logo'/>
-          <div className='line1'>tartine.byjanice</div>
-          <div className='line2'>Business Founder / Owner</div>
-          <div className='line3'>Apr 2020 - Present</div>
+        <div className="work-container">
+          <img src={PGLogo} className="company-logo" alt="PG Logo" />
+          <div className="line1">PT. Prima Gracindo</div>
+          <div className="line2">Product Designer Intern</div>
+          <div className="line3">Jan 2020 - 2021</div>
+          {/* <div className='work-button'>
+            <div className='learn-more'>
+              Learn More
+              <KeyboardArrowRightRoundedIcon/>
+            </div>
+          </div> */}
+        </div>
+        <div className="work-container">
+          <img src={TartineLogo} className="company-logo" alt="Tartine Logo" />
+          <div className="line1">tartine.byjanice</div>
+          <div className="line2">Business Founder / Owner</div>
+          <div className="line3">Apr 2020 - Present</div>
           {/* <div className='work-button'>
             <div className='learn-more'>
               Learn More
