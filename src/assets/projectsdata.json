@@ -38,11 +38,11 @@
     "links": [
       {
         "linktitle": "Rendered Prototype Video",
-        "linkhtml": "https://sutdapac-my.sharepoint.com/:v:/g/personal/janice_yohana_mymail_sutd_edu_sg/EfLT-egTAMRClMvXQiIVne0B41MOPbVUc1NozYv9thPU8g?e=XEJham"
+        "linkhtml": "https://drive.google.com/file/d/1KVQde2jDJbpvZIKEwmooZDN5Aaj9YRvJ/view?usp=sharing"
       },
       {
         "linktitle": "Product Video",
-        "linkhtml": "https://sutdapac-my.sharepoint.com/:v:/g/personal/janice_yohana_mymail_sutd_edu_sg/EZA8oxhFv2dCkZmW9Iow1acB4VOd3934dijYINBriqp3kg?e=GfQeyj"
+        "linkhtml": "https://drive.google.com/file/d/1bPSGbTXIRATzSR1zd6DCDQ4Xp89JCb2f/view?usp=sharing"
       }
     ]
   },
@@ -56,6 +56,10 @@
       {
         "linktitle": "Project Video",
         "linkhtml": "https://www.youtube.com/watch?v=Q6gUqN6ieww"
+      },
+      {
+        "linktitle": "Project Website",
+        "linkhtml": "https://www.sutd.edu.sg/dai/course-publication/next-gen-dashboard/"
       },
       {
         "linktitle": "Prototype Website",
@@ -83,7 +87,7 @@
     "links": [
       {
         "linktitle": "Project Video",
-        "linkhtml": "https://sutdapac-my.sharepoint.com/:v:/g/personal/janice_yohana_mymail_sutd_edu_sg/ERXfU6hRw9hMsQWuh_eBWR0B5HyY5YuJ5dwMpjbC48oT2w?e=LFN7aq"
+        "linkhtml": "https://drive.google.com/file/d/1INaXTO8HytHCrvUcBYJRYRdTKswZJLk9/view?usp=sharing"
       }
     ]
   },
@@ -100,7 +104,26 @@
       },
       {
         "linktitle": "Product Video",
-        "linkhtml": "https://sutdapac-my.sharepoint.com/:v:/g/personal/janice_yohana_mymail_sutd_edu_sg/EVWK4Ii77KxJoK6ge922FucBLLXxA4VCROGvJHE1uGPZKw?e=loLydJ"
+        "linkhtml": "https://drive.google.com/file/d/1bPSGbTXIRATzSR1zd6DCDQ4Xp89JCb2f/view?usp=sharing"
+      },
+      {
+        "linktitle": "Project Video",
+        "linkhtml": "https://drive.google.com/file/d/1Al7k4hOGJktroUwLGjiUCdJZsw6dEjW4/view?usp=sharing"
+      }
+    ]
+  },{
+    "id": 7,
+    "image": "/assets/f1gures.png",
+    "title": "F1gures ",
+    "subtitle": "Purchase Planning Module (CAPSTONE)",
+    "description": "F1gures Lite is a user-driven property financing and purchase planning tool that empowers clients to make informed decisions based on their financial context, including income and net worth.",
+    "links": [
+      {
+        "linktitle": "Project Website",
+        "linkhtml": "https://capstoneshowcase.sutd.edu.sg/project/proj-s35-fhl_purchase-planning-module/"
+      },{
+        "linktitle": "Product Demo Video",
+        "linkhtml": "https://drive.google.com/file/d/1NPhu1eEgR8x1UYiLPDaeyVkLMt0rNn2G/view?usp=sharing"
       }
     ]
   }
