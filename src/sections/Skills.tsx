@@ -40,6 +40,9 @@ const Skills: React.FC = () => {
       category: "Design & Digital Art",
       description: "Creative tools for vector illustration and digital art.",
       skills: [
+        "Canva",
+        "Photography",
+        "Videography",
         "Vectornator",
         "CorelDRAW",
         "Procreate",

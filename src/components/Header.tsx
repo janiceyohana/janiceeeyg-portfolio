@@ -76,21 +76,9 @@ const Header: React.FC = () => {
                   e.preventDefault();
                   handleScroll("about");
                 }}
-                className={activeSection === "about-me" ? "active" : ""}
+                className={activeSection === "about" ? "active" : ""}
               >
                 About me
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="#"
-                onClick={(e) => {
-                  e.preventDefault();
-                  handleScroll("skills");
-                }}
-                className={activeSection === "skills" ? "active" : ""}
-              >
-                Skills
               </Link>
             </li>
             <li>
@@ -115,6 +103,18 @@ const Header: React.FC = () => {
                 className={activeSection === "projects" ? "active" : ""}
               >
                 Projects
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleScroll("skills");
+                }}
+                className={activeSection === "skills" ? "active" : ""}
+              >
+                Skills
               </Link>
             </li>
             <li>

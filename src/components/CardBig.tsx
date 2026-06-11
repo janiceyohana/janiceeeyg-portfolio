@@ -27,7 +27,7 @@ const CardBig: React.FC<CardBigProps> = ({
   onClose,
 }) => {
   return (
-    <div>
+    <div className="container">
       <img
         src={process.env.PUBLIC_URL + image}
         alt={title}

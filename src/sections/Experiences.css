@@ -1,5 +1,5 @@
 .experiences {
-  background-color: #F7F8F9;
+  background-color: #FFFFFF;
   padding: 80px;
 }
 
@@ -29,11 +29,21 @@
   height: 200px;
   margin-bottom: 20px;
 }
+.bonsai-logo {
+    transform: scale(1.4);
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .bonsai-logo:hover {
+    transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
 
 .work-row {
   display: flex;
   flex-direction: row;
-  gap: 100px;
+  gap: 80px;
   justify-content: center;
   align-self: center;
 }

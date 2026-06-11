@@ -1,14 +1,14 @@
-import React from 'react';
-import './Profile.css';
-import ProfilePic from '../assets/profile-pic.jpg';
+import React from "react";
+import "./Profile.css";
+import ProfilePic4 from "../assets/profile-pic4.jpg";
+import { SocialIcon } from "react-social-icons";
 
 const Profile: React.FC = () => {
-
   const toggleOpenCV = () => {
-    const pdfUrl = process.env.PUBLIC_URL + '/Resume-Janice-Yohana.pdf';
-    const link = document.createElement('a');
+    const pdfUrl = process.env.PUBLIC_URL + "/Resume-Janice-Yohana.pdf";
+    const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = 'Resume-Janice-Yohana.pdf';
+    link.download = "Resume-Janice-Yohana.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -17,7 +17,7 @@ const Profile: React.FC = () => {
   return (
     <div className="profile">
       <div className="profile-pic">
-        <img src={ProfilePic} className="profile-pic" alt="Profile" />
+        <img src={ProfilePic4} className="profile-pic" alt="Profile" />
       </div>
       <div className="section-text">
         <p className="section-title">Hi! I am</p>
@@ -31,9 +31,20 @@ const Profile: React.FC = () => {
           and intuitive for all
         </div>
         <div className="btn-container">
-          <button className="btn-1" onClick={toggleOpenCV}>
+          {/* <button className="btn-1" onClick={toggleOpenCV}>
             Download Resume
-          </button>
+          </button> */}
+          <div className="socials-container">
+            <SocialIcon network="mailto" url="mailto:janiceyohana@gmail.com" />
+            <SocialIcon
+              network="linkedin"
+              url="https://www.linkedin.com/in/janice-yohana-gunawan-83788021b/"
+            />
+            <SocialIcon
+              network="github"
+              url="https://github.com/janiceyohana"
+            />
+          </div>
         </div>
       </div>
     </div>
